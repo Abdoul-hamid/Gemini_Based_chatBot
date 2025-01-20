@@ -128,7 +128,7 @@ st.markdown(
 
 # Configuration de l'API Gemini
 # Il se pourrait que cette api_key ne soit pas utilisable. Vous pouvez la remplacée en créant votre propre clé sur https://ai.google.dev/gemini-api/docs/api-key?hl=fr
-genai.configure(api_key="AIzaSyCyjpR-nXL0JR0A2mW5537e1ybODU5ZEuM")
+genai.configure(api_key="*")
 
 # Fonction pour afficher les messages avec style
 def display_message_with_copy(role, message, key):
